@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "app:watch": "dotnet watch --project ./EL_Arne run",
     "css:build": "tailwindcss -i ./EL_Arne/Styles/tailwind.css -o ./EL_Arne/wwwroot/css/tailwind.css --minify",
     "css:watch": "tailwindcss -i ./EL_Arne/Styles/tailwind.css -o ./EL_Arne/wwwroot/css/tailwind.css --watch",
+    "dev": "dotnet watch --project ./EL_Arne run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -20,7 +20,6 @@ C:\Users\freed\Desktop\VSCODE\Exjobb\EL_Arne\EL_Arne\obj\Debug\net10.0\rjsmrazor
 C:\Users\freed\Desktop\VSCODE\Exjobb\EL_Arne\EL_Arne\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
 C:\Users\freed\Desktop\VSCODE\Exjobb\EL_Arne\EL_Arne\obj\Debug\net10.0\scopedcss\bundle\EL_Arne.styles.css
 C:\Users\freed\Desktop\VSCODE\Exjobb\EL_Arne\EL_Arne\obj\Debug\net10.0\compressed\qip0wiccnc-{0}-179i700zy0-179i700zy0.gz
-C:\Users\freed\Desktop\VSCODE\Exjobb\EL_Arne\EL_Arne\obj\Debug\net10.0\compressed\qb7dhrowb7-{0}-6m8yd41ts6-6m8yd41ts6.gz
 C:\Users\freed\Desktop\VSCODE\Exjobb\EL_Arne\EL_Arne\obj\Debug\net10.0\compressed\my4yv2nvb6-{0}-mz0dmgc415-mz0dmgc415.gz
 C:\Users\freed\Desktop\VSCODE\Exjobb\EL_Arne\EL_Arne\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\freed\Desktop\VSCODE\Exjobb\EL_Arne\EL_Arne\obj\Debug\net10.0\staticwebassets.build.json.cache
@@ -32,3 +31,5 @@ C:\Users\freed\Desktop\VSCODE\Exjobb\EL_Arne\EL_Arne\obj\Debug\net10.0\refint\EL
 C:\Users\freed\Desktop\VSCODE\Exjobb\EL_Arne\EL_Arne\obj\Debug\net10.0\EL_Arne.pdb
 C:\Users\freed\Desktop\VSCODE\Exjobb\EL_Arne\EL_Arne\obj\Debug\net10.0\EL_Arne.genruntimeconfig.cache
 C:\Users\freed\Desktop\VSCODE\Exjobb\EL_Arne\EL_Arne\obj\Debug\net10.0\ref\EL_Arne.dll
+C:\Users\freed\Desktop\VSCODE\Exjobb\EL_Arne\EL_Arne\obj\Debug\net10.0\EL_Arne.sourcelink.json
+C:\Users\freed\Desktop\VSCODE\Exjobb\EL_Arne\EL_Arne\obj\Debug\net10.0\compressed\qb7dhrowb7-{0}-65hsu5c1mr-65hsu5c1mr.gz
