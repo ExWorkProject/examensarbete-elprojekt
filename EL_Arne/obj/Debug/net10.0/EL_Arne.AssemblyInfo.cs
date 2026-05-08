@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EL_Arne")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3eb0e5610ad406267f837afeaed3c3f24d687d71")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81fc62f89d37404409e1e16af53da94df44ec80c")]
 [assembly: System.Reflection.AssemblyProductAttribute("EL_Arne")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EL_Arne")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
