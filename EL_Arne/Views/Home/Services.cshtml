@@ -6,46 +6,57 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl">
             <p class="text-sm font-bold uppercase tracking-[0.18em] text-amber-600">Tjänster</p>
-            <h1 class="mt-3 text-4xl font-black text-slate-950 sm:text-5xl">Elhjälp för vardagens behov och nästa steg.</h1>
-            <p class="mt-5 text-lg leading-8 text-slate-600">Vi tar hand om både planerade installationer och akuta problem. Alla arbeten utförs enligt gällande regler och dokumenteras så att du kan känna dig trygg över tid.</p>
-        </div>
-
-        <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            <partial name="_ServiceCard" model="@(new ServiceCardViewModel { Icon = "⚡", Title = "Elinstallationer", Description = "Kompletta installationer vid renovering, nybyggnation, kök, badrum, garage och kontor." })" />
-            <partial name="_ServiceCard" model="@(new ServiceCardViewModel { Icon = "✓", Title = "Felsökning", Description = "Vi hittar orsaken till jordfel, trasiga grupper, flimrande belysning och återkommande driftstörningar." })" />
-            <partial name="_ServiceCard" model="@(new ServiceCardViewModel { Icon = "🔌", Title = "Laddboxar", Description = "Rätt dimensionering, installation och genomgång av laddning för villa, BRF och företag." })" />
-            <partial name="_ServiceCard" model="@(new ServiceCardViewModel { Icon = "☀", Title = "Energismarta lösningar", Description = "Timer, styrning, LED-konvertering och praktiska förbättringar som minskar onödig elförbrukning." })" />
-            <partial name="_ServiceCard" model="@(new ServiceCardViewModel { Icon = "⌂", Title = "BRF & fastighet", Description = "Löpande service, trapphusbelysning, elcentraler, motorvärmare och mindre projekt i fastigheter." })" />
-            <partial name="_ServiceCard" model="@(new ServiceCardViewModel { Icon = "◼", Title = "Belysning", Description = "Planering och montering av funktionell belysning ute, inne, i butiksmiljöer och arbetslokaler." })" />
-        </div>
-    </div>
-</section>
-
-<section class="bg-slate-100 py-16">
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="grid gap-8 lg:grid-cols-3">
-            <div class="lg:col-span-1">
-                <h2 class="text-3xl font-black text-slate-950">Så jobbar vi</h2>
+            <h1 class="mt-3 text-4xl font-black text-slate-950 sm:text-5xl">Elhjälp för vardagens behov och nästa steg.
+            </h1>
+            <p class="mt-5 text-lg leading-8 text-slate-600">Vi tar hand om både planerade installationer och akuta
+                problem. Alla arbeten utförs enligt gällande regler och dokumenteras så att du kan känna dig trygg över
+                tid.</p>
             </div>
-            <div class="grid gap-4 md:grid-cols-3 lg:col-span-2">
-                <div class="rounded bg-white p-5 shadow-sm">
-                    <p class="text-sm font-bold text-amber-600">01</p>
-                    <h3 class="mt-2 font-bold">Behovsbild</h3>
-                    <p class="mt-2 text-sm leading-6 text-slate-600">Vi går igenom plats, omfattning och önskad tidplan.</p>
-                </div>
-                <div class="rounded bg-white p-5 shadow-sm">
-                    <p class="text-sm font-bold text-amber-600">02</p>
-                    <h3 class="mt-2 font-bold">Tydlig offert</h3>
-                    <p class="mt-2 text-sm leading-6 text-slate-600">Du får förslag, prisbild och eventuella reservationer innan start.</p>
-                </div>
-                <div class="rounded bg-white p-5 shadow-sm">
-                    <p class="text-sm font-bold text-amber-600">03</p>
-                    <h3 class="mt-2 font-bold">Snyggt avslut</h3>
-                    <p class="mt-2 text-sm leading-6 text-slate-600">Vi testar, städar och lämnar dokumentation när arbetet är klart.</p>
-                </div>
+
+            <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <partial name="_ServiceCard"
+                         model="@(new ServiceCardViewModel { Icon = "⚡", Title = "Elinstallationer", Description = "Nyinstallation och utökning av elektriska anläggningar i bostäder, industrilokaler och lantbruk." })" />
+                <partial name="_ServiceCard"
+                         model="@(new ServiceCardViewModel { Icon = "✓", Title = "Service & Felsökning", Description = "Vi hittar orsaken till jordfel, trasiga grupper, flimrande belysning och återkommande driftstörningar." })" />
+                <partial name="_ServiceCard"
+                         model="@(new ServiceCardViewModel { Icon = "☀", Title = "Energismarta lösningar", Description = "Timer, styrning, LED-konvertering och praktiska förbättringar som minskar onödig elförbrukning." })" />
+                <partial name="_ServiceCard"
+                         model="@(new ServiceCardViewModel { Icon = "⌂", Title = "Bostäder, industrilokaler och lantbruk", Description = "Nyinstallation, service och utökning av elektriska anläggningart.ex. elcentraler, belysning, uttag och maskinanläggningar." })" />
+                <partial name="_ServiceCard"
+                         model="@(new ServiceCardViewModel { Icon = "◼", Title = "Belysning", Description = "Planering och montering av funktionell belysning ute, inne, i butiksmiljöer och arbetslokaler." })" />
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<partial name="_ContactCta" />
+    <section class="bg-slate-100 py-16">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="grid gap-8 lg:grid-cols-2">
+                <div class="lg:col-span-1">
+                    <h2 class="text-3xl font-black text-slate-950">Så jobbar vi</h2>
+                </div>
+                <div class="grid gap-4 md:grid-cols-3 lg:col-span-2">
+                    <div class="rounded bg-white p-5 shadow-sm">
+                        <p class="text-sm font-bold text-amber-600">01</p>
+                        <h3 class="mt-2 font-bold">Behovsbild</h3>
+                        <p class="mt-2 text-sm leading-6 text-slate-600">Vi går igenom på plats, omfattning och önskad
+                            tidplan.
+                        </p>
+                    </div>
+                    <div class="rounded bg-white p-5 shadow-sm">
+                        <p class="text-sm font-bold text-amber-600">02</p>
+                        <h3 class="mt-2 font-bold">Tydlig offert</h3>
+                        <p class="mt-2 text-sm leading-6 text-slate-600">Du får förslag, prisbild och eventuella
+                            reservationer innan start.</p>
+                        </div>
+                        <div class="rounded bg-white p-5 shadow-sm">
+                            <p class="text-sm font-bold text-amber-600">03</p>
+                            <h3 class="mt-2 font-bold">Snyggt avslut</h3>
+                            <p class="mt-2 text-sm leading-6 text-slate-600">Vi testar, städar och lämnar dokumentation när
+                                arbetet är klart.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <partial name="_ContactCta" />
