@@ -3,35 +3,39 @@
 <section class="relative isolate overflow-hidden bg-slate-950">
     <div
         class="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top_left,rgba(245,158,11,0.28),transparent_36%),linear-gradient(135deg,#0f172a_0%,#111827_55%,#27272a_100%)]">
-    </div>
-    <div
-        class="mx-auto grid max-w-7xl gap-10 px-4 py-20 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:px-8 lg:py-24">
-        <div>
-            <p class="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300">@Model.Eyebrow</p>
-            <h1 class="mt-5 max-w-4xl text-4xl font-black leading-tight text-white sm:text-5xl lg:text-6xl">@Model.Title
-            </h1>
-            <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-300">@Model.Description</p>
-            <div class="mt-8 flex flex-col gap-3 sm:flex-row">
-                <a class="inline-flex items-center justify-center rounded bg-amber-400 px-5 py-3 text-sm font-bold text-slate-950 shadow-lg shadow-amber-950/20 transition hover:bg-amber-300"
-                   asp-controller="@Model.PrimaryActionController"
-                   asp-action="@Model.PrimaryActionName">@Model.PrimaryActionText</a>
-                @if (!string.IsNullOrWhiteSpace(Model.SecondaryActionText))
-                {
-                    <a class="inline-flex items-center justify-center rounded border border-white/20 px-5 py-3 text-sm font-bold text-white transition hover:bg-white/10"
-                       asp-controller="@Model.SecondaryActionController"
-                       asp-action="@Model.SecondaryActionName">@Model.SecondaryActionText</a>
-                }
-            </div>
+        <div class="text-amber-300 font-mono text-sm font-semibold uppercase tracking-[0.2em] pt-6 text-center">
+            <p>Verksam inom Lindesberg, Spannarboda, Grönbo, Fellingsbro, Örebro</p>
         </div>
-        <div class="rounded border border-white/10 bg-white/10 p-6 shadow-2xl backdrop-blur">
-            <div class="grid gap-4 sm:grid-cols-2">
+    </div>
+</div>
+<div
+    class="mx-auto grid max-w-7xl gap-10 px-4 py-20 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:px-8 lg:py-24">
+    <div>
+        <p class="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300">@Model.Eyebrow</p>
+        <h1 class="mt-5 max-w-4xl text-4xl font-black leading-tight text-white sm:text-5xl lg:text-6xl">@Model.Title
+        </h1>
+        <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-300">@Model.Description</p>
+        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+            <a class="inline-flex items-center justify-center rounded bg-amber-400 px-5 py-3 text-sm font-bold text-slate-950 shadow-lg shadow-amber-950/20 transition hover:bg-amber-300"
+               asp-controller="@Model.PrimaryActionController"
+               asp-action="@Model.PrimaryActionName">@Model.PrimaryActionText</a>
+            @if (!string.IsNullOrWhiteSpace(Model.SecondaryActionText))
+            {
+                <a class="inline-flex items-center justify-center rounded border border-white/20 px-5 py-3 text-sm font-bold text-white transition hover:bg-white/10"
+                   asp-controller="@Model.SecondaryActionController"
+                   asp-action="@Model.SecondaryActionName">@Model.SecondaryActionText</a>
+            }
+        </div>
+    </div>
+    <div class="rounded border border-white/10 bg-white/10 p-6 shadow-2xl backdrop-blur">
+        <div class="grid gap-4 sm:grid-cols-2">
 
-                <div class="rounded bg-slate-900 p-5 text-white sm:col-span-2">
-                    <p class="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300">Specialitet</p>
-                    <p class="mt-3 text-xl font-bold">Renoverings- och tillbyggnadsprojekt med höga krav på estetiska
-                        lösningar.</p>
-                    </div>
+            <div class="rounded bg-slate-900 p-5 text-white sm:col-span-2">
+                <p class="text-sm font-semibold uppercase tracking-[0.2em] text-amber-300">Specialitet</p>
+                <p class="mt-3 text-xl font-bold">Renoverings- och tillbyggnadsprojekt med höga krav på estetiska
+                    lösningar.</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
