@@ -506,6 +506,9 @@
   .bg-\[radial-gradient\(circle_at_top_left\,rgba\(245\,158\,11\,0\.28\)\,transparent_36\%\)\,linear-gradient\(135deg\,\#0f172a_0\%\,\#111827_55\%\,\#27272a_100\%\)\] {
     background-image: radial-gradient(circle at top left,rgba(245,158,11,0.28),transparent 36%),linear-gradient(135deg,#0f172a 0%,#111827 55%,#27272a 100%);
   }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
+  }
   .p-5 {
     padding: calc(var(--spacing) * 5);
   }
