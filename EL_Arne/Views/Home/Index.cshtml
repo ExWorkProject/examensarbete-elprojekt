@@ -4,10 +4,10 @@
 
 <partial name="_Hero" model="@(new HeroViewModel
                       {
-                          Eyebrow = "Elektriker i Spannarboda-Örebro-området",
+                          Eyebrow = "Installationer, service, projektledning och konsultationer inom el, tele och larm",
                           Title = "Trygga elinstallationer för hem och företag.",
-                          Description = "Arne hjälper dig med allt från service och felsökning till laddboxar, belysning och smarta energilösningar.",
-                          PrimaryActionText = "Boka kostnadsfri rådgivning",
+                          Description = "Vi hjälper dig med allt från service och felsökning till laddboxar, belysning och smarta energilösningar.",
+                          PrimaryActionText = "Offerter kostnadsfritt",
                           PrimaryActionController = "Home",
                           PrimaryActionName = "Contact",
                           SecondaryActionText = "Se våra tjänster",
@@ -18,20 +18,20 @@
 <section class="bg-white py-16">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="max-w-3xl">
-            <p class="text-sm font-bold uppercase tracking-[0.18em] text-amber-600">Vad jag gör</p>
+            <p class="text-sm font-bold uppercase tracking-[0.18em] text-amber-600">Vad vi gör</p>
             <h2 class="mt-3 text-3xl font-black text-slate-950 sm:text-4xl">Elservice som är enkel att beställa och lätt
                 att lita på.</h2>
-                <p class="mt-4 leading-8 text-slate-600">Jag kombinerar erfarenhet från mindre servicejobb med struktur från
+                <p class="mt-4 leading-8 text-slate-600">Vi kombinerar erfarenhet från mindre servicejobb med struktur från
                     större projekt.
                 </p>
             </div>
             <div class="mt-10 grid gap-6 md:grid-cols-3">
                 <partial name="_ServiceCard"
-                         model="@(new ServiceCardViewModel { Icon = "⚡", Title = "Installation", Description = "Nya uttag, centraler, belysning, golvvärme och säkra installationer i villor, lägenheter och lokaler." })" />
+                         model="@(new ServiceCardViewModel { Icon = "⚡", Title = "Elinstallationer", Description = "Nyinstallation och utökning av elektriska anläggningar i bostäder, industrilokaler och lantbruk." })" />
                 <partial name="_ServiceCard"
                          model="@(new ServiceCardViewModel { Icon = "✓", Title = "Service & felsökning", Description = "Snabb hjälp när något inte fungerar, med metodisk felsökning och tydliga rekommendationer innan åtgärd." })" />
                 <partial name="_ServiceCard"
-                         model="@(new ServiceCardViewModel { Icon = "🔌", Title = "Laddboxar", Description = "Planering och installation av laddboxar för privatpersoner, BRF:er och mindre företagsparkeringar." })" />
+                         model="@(new ServiceCardViewModel { Icon = "🔌", Title = "Renovering & tillbyggnad", Description = "Renoverings- och tillbyggnadsarbeten med höga krav på estetiska lösningar." })" />
             </div>
         </div>
     </section>
@@ -39,11 +39,10 @@
     <section class="bg-slate-100 py-16">
         <div class="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:items-center lg:px-8">
             <div>
-                <p class="text-sm font-bold uppercase tracking-[0.18em] text-amber-600">Om Andersson Projekt EF</p>
-                <h2 class="mt-3 text-3xl font-black text-slate-950 sm:text-4xl">Ett litet elföretag med stor omsorg om
-                    detaljerna.</h2>
-                    <p class="mt-5 leading-8 text-slate-700">Jag är en lokal auktoriserad elektriker som värdesätter
-                        punktlighet, säkerhet och bra dialog. Mitt mål är att varje kund ska förstå vad som görs, varför det
+                <p class="text-sm font-bold uppercase tracking-[0.18em] text-amber-600">Vårt företag</p>
+                <h2 class="mt-3 text-3xl font-black text-slate-950 sm:text-4xl">En trygg partner i mindre såväl som större projekt.</h2>
+                    <p class="mt-5 leading-8 text-slate-700">Vi är en lokal auktoriserad elfirma som värdesätter
+                        punktlighet, säkerhet och bra dialog. Vårt mål är att varje kund ska förstå vad som görs, varför det
                         behövs och vad det kostar.</p>
                         <a class="mt-7 inline-flex rounded bg-slate-950 px-5 py-3 text-sm font-bold text-white transition hover:bg-slate-800"
                            asp-controller="Home" asp-action="About">Läs mer om företaget</a>
