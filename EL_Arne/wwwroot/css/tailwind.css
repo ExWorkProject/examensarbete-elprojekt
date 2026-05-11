@@ -819,6 +819,26 @@
       grid-column: span 2 / span 2;
     }
   }
+  .sm\:mt-2\.5 {
+    @media (width >= 40rem) {
+      margin-top: calc(var(--spacing) * 2.5);
+    }
+  }
+  .sm\:mb-2\.5 {
+    @media (width >= 40rem) {
+      margin-bottom: calc(var(--spacing) * 2.5);
+    }
+  }
+  .sm\:mb-4\.5 {
+    @media (width >= 40rem) {
+      margin-bottom: calc(var(--spacing) * 4.5);
+    }
+  }
+  .sm\:mb-6\.5 {
+    @media (width >= 40rem) {
+      margin-bottom: calc(var(--spacing) * 6.5);
+    }
+  }
   .sm\:grid-cols-2 {
     @media (width >= 40rem) {
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -829,6 +849,16 @@
       flex-direction: row;
     }
   }
+  .sm\:p-20 {
+    @media (width >= 40rem) {
+      padding: calc(var(--spacing) * 20);
+    }
+  }
+  .sm\:p-40 {
+    @media (width >= 40rem) {
+      padding: calc(var(--spacing) * 40);
+    }
+  }
   .sm\:px-6 {
     @media (width >= 40rem) {
       padding-inline: calc(var(--spacing) * 6);
@@ -837,6 +867,21 @@
   .sm\:py-20 {
     @media (width >= 40rem) {
       padding-block: calc(var(--spacing) * 20);
+    }
+  }
+  .sm\:py-32 {
+    @media (width >= 40rem) {
+      padding-block: calc(var(--spacing) * 32);
+    }
+  }
+  .sm\:pt-10 {
+    @media (width >= 40rem) {
+      padding-top: calc(var(--spacing) * 10);
+    }
+  }
+  .sm\:pt-20 {
+    @media (width >= 40rem) {
+      padding-top: calc(var(--spacing) * 20);
     }
   }
   .sm\:text-4xl {
@@ -919,6 +964,11 @@
   .lg\:items-center {
     @media (width >= 64rem) {
       align-items: center;
+    }
+  }
+  .lg\:overflow-visible {
+    @media (width >= 64rem) {
+      overflow: visible;
     }
   }
   .lg\:px-8 {
