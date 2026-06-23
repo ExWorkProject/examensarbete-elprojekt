@@ -14,7 +14,6 @@ function Hero({ onNavigate }) {
           <p className="hero__eyebrow">
             Installationer, service, projektledning och konsultationer inom el, tele och larm
           </p>
-          <h1 className="hero__title">Andersson Projekt</h1>
           <p className="hero__description">
             En trygg partner i mindre såväl som större projekt.
           </p>
