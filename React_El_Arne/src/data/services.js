@@ -45,4 +45,10 @@ export const servicePageItems = [
     description:
       "Planering och montering av funktionell belysning ute, inne, i butiksmiljöer och arbetslokaler.",
   },
+    {
+    icon: "🔌",
+    title: "Laddstolpar",
+    description:
+      "Planering och installation av laddstolpar för elbilar, både för privatpersoner och företag.",
+  },
 ];
